@@ -5,11 +5,16 @@
     user-select: none;
 }
 
-body {
+.landPage {
     background-image: url('images/coffee.webp');
     background-repeat: no-repeat;
 }
 
+.topDressPage {
+    background-image: url('images/topdress.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1 {
     width: fit-content;
     font-size: 10em;
@@ -32,7 +37,6 @@ header {
 }
 
 header nav {
-    /* line-height: 80px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,4 +72,30 @@ header nav ul li a {
     color: white;
     text-decoration:none;
     font-size: 1.2em;
+}
+
+
+/* TROUSERS PAGE DOCUMENTS */
+.trousers_info {
+    width: 400px;
+    border: 1px solid black;
+    /* padding: 80px 20px 30px 40px; */  /*80px represents Top, 20px represent Right, 30px represent Bottom, while 40px represents Left*/
+
+    /* padding: 10px; */ /*10px here represents the four sides*/
+
+    padding: 10px 50px;/* 10px represents top and bottom while 50px left and right*/
+}
+
+.articleContainer {
+    display: flex;
+    margin-block-end: 20px;
+}
+.trousers_info {
+    width: 300px;
+    border: 1px solid rgb(241, 238, 238);
+    color: white;
+    padding: 10px;
+    margin:0 auto;
+    border-radius: 8px;
+    background-color: rgba(49, 50, 51, 0.5);
 }
